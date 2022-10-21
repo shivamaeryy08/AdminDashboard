@@ -1,0 +1,38 @@
+body {
+    
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
+    height:100%;
+}
+
+.headercontainer {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 4px;
+    border-color: red;
+    border-style: dashed;
+}
+
+.ProjAnnTrenContainer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 4px;
+    border-color: red;
+    border-style: dashed;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.Dashboard {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border: 4px;
+    border-color: red;
+    border-style: dashed;
+ 
+    
+}
