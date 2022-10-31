@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +8,86 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="Dashboard"> 
+        <div class="Dashboard">
             <span>Dashboard</span>
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>History</p>
-            <p>Tasks</p>
-            <p>Communities</p>
+            <p> <img src="./home.svg" style="width:24px;height:24px;">Home</p>
+            <p> <img src="./face-man-profile.svg" style="width:24px;height:24px;">Profile</p>
+            <p><img src="./message-settings.svg" style="width:24px;height:24px;">Messages</p>
+            <p><img src="/clock-outline.svg" style="width:24px;height:24px;">History</p>
+            <p><img src="./file-tree.svg" style="width:24px;height:24px;">Tasks</p>
+            <p><img src="./account-group.svg" style="width:24px;height:24px;">Communities</p>
             <br>
-            <p>Settings</p>
-            <p>Support</p>
-            <p>Privacy</p>
+            <p><img src="./cog-outline.svg" style="width:24px;height:24px;">Settings</p>
+            <p><img src="./face-agent.svg" style="width:24px;height:24px;">Support</p>
+            <p><img src="./shield-lock-outline.svg" style="width:24px;height:24px;">Privacy</p>
         </div>
 
-        
+
         <div class="headercontainer">
             <div class="Header">
-                <label for="usersearch">Icon for search</label>
-                    <input class="search" id="usersearch"type="text" name="user_search">
-                <span>icon bell</span>
-                <span>pic</span>
-                <span>Shivam Aery</span>
+                <div class="searchbar">
+                    
+                    <label for="usersearch">meow</label>
+                    <input class="search" id="usersearch" type="text" name="user_search">
+                </div>
+
+                <div class="icon">
+                    <span><img src="/bell-ring-outline.svg" style="width:24px;height:24px;"></span>
+                    <span>pic</span>
+                    <span>Shivam Aery</span>
+                </div>
+
             </div>
-        
+
             <div class="Subheader">
-                <span>Hi there, <br> </span>
-                <span>Shivam Aery(@shivam)</span>
+                <div class="greeting">
+                    <span>Hi there, <br> </span>
+                    <span>Shivam Aery(@shivam)</span>
+                </div>
                 <button type="button">New</button>
                 <button type="button">Upload</button>
                 <button type="button">Share</button>
             </div>
         </div>
-         
+
         <div class="ProjAnnTrenContainer">
-            <div class="Projects"> 
-                <div class="Project"><span>Your Projects</span> <br> Super cool project</div>
+             
+            <div class="Projects">
+                <div><div class="YourProject">Your Projects</div></div> 
+                <div class="Project"> Super cool project</div>
                 <div class="Project"><br>Super cool project</div>
                 <div class="Project">Super cool project</div>
                 <div class="Project">Super cool project</div>
                 <div class="Project">Super cool project</div>
                 <div class="Project">Super cool project</div>
-            </div>    
-            
+            </div>
+
             <div class="Announcetrendcontainer">
                 <span>Announcements</span>
-                <div class="Announcements"> 
+                <div class="Announcements">
                     <div class="Announcement">Site</div>
                     <div class="Announcement">Site</div>
                     <div class="Announcement">Site</div>
                 </div>
-            
-                <div class="Trending">Trending
+
+                <span>Trending</span>
+                <div class="Trending">
                     <div class="Trend">Trend</div>
                     <div class="Trend">Trend</div>
                     <div class="Trend">Trend</div>
                     <div class="Trend">Trend</div>
-                </div>    
+                </div>
             </div>
-             
+
         </div>
-    
-       
+
+
     </div>
-     
+
 
 </body>
+
 </html>
