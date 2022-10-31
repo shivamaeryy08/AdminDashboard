@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+}
 .container {
     display:grid;
     grid-template-columns: 20% 80%;
@@ -9,8 +15,6 @@
     grid-column: 2/3;
     grid-row: 1/2;
     border: 4px;
-    border-color: grey;
-    border-style: dashed;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
@@ -38,8 +42,6 @@
     grid-column: 2/3;
     grid-row: 2/3;
     border: 4px;
-    border-color: grey;
-    border-style: dashed;
     display:grid;
     grid-template-columns: 3fr 1fr;
     background-color: #d1d5db;
@@ -52,14 +54,21 @@
     grid-column: 1/2;
     grid-row: 1/3;
     border: 4px;
-    border-color: grey;
-    border-style: dashed;
+    border-color: white;
+    border-style: solid;
     background-color: #60a5fa;
     padding:20px;
     
 }
 
- 
+#welcomeannounce,#welcometrend,#YourProject {
+ font-weight:bold;
+    
+}
+
+#greeting { 
+    font-weight:bold;
+}
 
 .Projects {
     display:grid;
@@ -67,6 +76,7 @@
     grid-template-rows: repeat(3,1fr);
     column-gap: 20px;
     row-gap:20px;
+    height:95%;
 }
 
 .Project {
@@ -76,7 +86,7 @@
 .Announcetrendcontainer {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
  
 }
 
@@ -88,6 +98,7 @@ button {
 }
 .Announcements,.Trending {
     background-color: white;
+     
 }
 
 .search {
@@ -101,3 +112,4 @@ button {
     display:flex;
     justify-content: space-between;
 }
+ 
