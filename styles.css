@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin:0px;
 }
+
+
 .container {
     display:grid;
     grid-template-columns: 20% 80%;
@@ -81,13 +83,26 @@ body {
 
 .Project {
     background-color: white;
+    border-radius: 10px;
+    padding:30px;
+}
+.projecticons {
+    display:flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.IndividualProject {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
 }
 
 .Announcetrendcontainer {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
- 
+    gap: 30px;
 }
 
 button {
@@ -95,10 +110,15 @@ button {
     border-style:none;
     border-radius: 10px;
     width:10rem;
+    color:white;
+    font-size: large;
 }
 .Announcements,.Trending {
     background-color: white;
-     
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+
 }
 
 .search {
@@ -112,4 +132,18 @@ button {
     display:flex;
     justify-content: space-between;
 }
+
+.buttoncontainer {
+    display:flex;
+    gap: 20px;
+
+}
+
+.greetingcontainer {
+    display:flex;
+    gap:30px;
+}
  
+.name {
+    font-weight: bold;
+}
