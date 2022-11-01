@@ -2,41 +2,44 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin:0px;
+    margin: 0px;
 }
 
 
+
+
 .container {
-    display:grid;
+    display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 20% 80%;
-    height:100vh;
+    height: 100vh;
 }
 
 .headercontainer {
     grid-column: 2/3;
     grid-row: 1/2;
     border: 4px;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding:30px;
+    padding: 40px;
 }
 
 .Header {
-    display:flex;
-    gap: 70px; 
-    justify-content: space-evenly;  
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
 }
 
 .icon {
-    display:flex;
+    display: flex;
     gap: 30px;
 }
 
 .searchbar {
-    display:flex;
+    display: flex;
     gap: 10px;
+    width:70%;
 }
 
 
@@ -44,62 +47,77 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     border: 4px;
-    display:grid;
+    display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: #d1d5db;
-    padding:20px;
+    padding: 20px;
     gap: 30px;
-   
+
 }
 
 .Dashboard {
     grid-column: 1/2;
     grid-row: 1/3;
-    border: 4px;
-    border-color: white;
-    border-style: solid;
     background-color: #60a5fa;
-    padding:20px;
-    
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
-#welcomeannounce,#welcometrend,#YourProject {
- font-weight:bold;
-    
+
+
+#welcomeannounce,
+#welcometrend,
+#YourProject {
+    font-weight: bold;
+    font-size: x-large;
+
 }
 
-#greeting { 
-    font-weight:bold;
+#greeting {
+    font-weight: bold;
+    font-size:large
+}
+.Dashboardtext {
+    font-weight: bold;
+    font-size: 50px;
+    display:flex;
+    gap: 30px;
 }
 
 .Projects {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 20px;
-    row-gap:20px;
-    height:95%;
+    row-gap: 20px;
+    height: 96%;
+    margin-top: 10px;
 }
 
 .Project {
     background-color: white;
     border-radius: 10px;
-    padding:30px;
+    padding: 30px;
 }
+
 .projecticons {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     gap: 30px;
 }
+
 .IndividualProject {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:100%;
+    height: 100%;
 }
 
 .Announcetrendcontainer {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
@@ -107,43 +125,91 @@ body {
 
 button {
     background-color: #60a5fa;
-    border-style:none;
+    border-style: none;
     border-radius: 10px;
-    width:10rem;
-    color:white;
+    width: 10rem;
+    color: white;
     font-size: large;
 }
-.Announcements,.Trending {
+
+.Announcements,
+.Trending {
     background-color: white;
     border-radius: 10px;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    justify-content: space-evenly;
 
 }
 
+.Announcements {
+    margin-top: 10px;
+}
+
+.AnnouncementContainer,
+.TrendingContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.trendpicentry {
+    display: flex;
+    gap: 30px;
+
+}
+
+.Trending {
+    max-height: 83.5%;
+    margin-top: 10px;
+}
+
+
 .search {
-    width:1000px;
+    width: 70%;
     background-color: #d1d5db;
-    border-style:none;
+    border-style: none;
     border-radius: 20px;
+    height: 30px;
 }
 
 .Subheader {
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .buttoncontainer {
-    display:flex;
+    display: flex;
     gap: 20px;
 
 }
 
 .greetingcontainer {
-    display:flex;
-    gap:30px;
+    display: flex;
+    gap: 30px;
 }
- 
+
 .name {
     font-weight: bold;
+    font-size: x-large;
+}
+
+.Dashtext {
+    font-size: 2rem;
+    display: flex;
+    gap: 40px;
+    
+}
+
+#greetingname {
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.ProjectTitle {
+    font-weight:bold;
 }
