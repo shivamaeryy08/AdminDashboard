@@ -80,6 +80,10 @@ body {
     font-weight: bold;
     font-size:large
 }
+
+.greetings{
+    margin-top: 15px;
+}
 .Dashboardtext {
     font-weight: bold;
     font-size: 50px;
